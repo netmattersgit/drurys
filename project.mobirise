@@ -6,7 +6,7 @@
       "name": "mobirise3",
       "title": "Mobirise 3",
       "styling": {
-        "primaryColor": "#3c71b5",
+        "primaryColor": "#eb6b56",
         "secondaryColor": "#bfcecb",
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
@@ -65,7 +65,7 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.8",
+            "overlayOpacity": "0.9",
             "overlayColor": "#3c71b5",
             "showTitle": true,
             "showText": true,
