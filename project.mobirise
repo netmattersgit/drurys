@@ -6,7 +6,7 @@
       "name": "mobirise3",
       "title": "Mobirise 3",
       "styling": {
-        "primaryColor": "#c0a375",
+        "primaryColor": "#3c71b5",
         "secondaryColor": "#bfcecb",
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
@@ -55,7 +55,7 @@
           "_anchor": "extHeader3-0",
           "_params": {
             "iconsColor": "#fff",
-            "parallax": false,
+            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/481899653-2000x1333.jpg",
             "bgColor": "#2e2e2e",
@@ -66,7 +66,7 @@
             "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": "0.8",
-            "overlayColor": "#000",
+            "overlayColor": "#3c71b5",
             "showTitle": true,
             "showText": true,
             "showButtons": true,
@@ -660,13 +660,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#2f598f"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#386aaa!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#3c71b5"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -688,7 +688,7 @@
           "_name": "menu",
           "_anchor": "menu-g",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#3c71b5",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
