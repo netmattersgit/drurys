@@ -681,6 +681,9 @@ h6,
 #form1-a .form-control-label {
   color: #232323;
 }
+#extFooter1-h .extFooter1 .mbr-figure {
+  width: 300px;
+}
 #menu-g .hide-buttons .nav-btn {
   display: none !important;
 }
