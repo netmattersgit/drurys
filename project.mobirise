@@ -6,7 +6,7 @@
       "name": "mobirise3",
       "title": "Mobirise 3",
       "styling": {
-        "primaryColor": "#eb6b56",
+        "primaryColor": "#3c71b5",
         "secondaryColor": "#bfcecb",
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
@@ -25,7 +25,7 @@
     "google-analytics": "",
     "cookiesAlert": "",
     "versionFirst": "3.11.1",
-    "uniqCompNum": 18,
+    "uniqCompNum": 19,
     "versionPublish": "3.11.1"
   },
   "pages": {
@@ -65,8 +65,8 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.9",
-            "overlayColor": "#3c71b5",
+            "overlayOpacity": "0.8",
+            "overlayColor": "#000000",
             "showTitle": true,
             "showText": true,
             "showButtons": true,
@@ -639,25 +639,24 @@
             "Extension"
           ],
           "_name": "extFooter1",
-          "_anchor": "extFooter1-h",
           "_params": {
+            "showTitle": true,
+            "showLogo": true,
             "progress": 50,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extFooter1_bg.jpg",
-            "bgColor": "#262626",
+            "parallax": false,
             "bgColorRadio": true,
+            "bgColor": "#262626",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.4,
             "overlayColor": "#000",
-            "showLogo": true,
-            "showTitle": true
+            "overlayOpacity": 0.4
           },
           "media": {
             "image": {
@@ -677,61 +676,14 @@
           },
           "title": "",
           "list": "<ul><li><a href=\"\">Bootstrap 4</a></li><li><a href=\"\">Responsive</a></li><li><a href=\"\">Web Fonts</a></li><li><a href=\"\">Unlimited Sites</a></li><li><a href=\"\">Google</a></li><li><a href=\"\">Node</a></li></ul>",
-          "_customHTML": "<section class=\"mbr-section extFooter1\" style=\"background-color: #4F7FBC; padding-top: 40px; padding-bottom: 40px;\">\n\n    \n\n    <div class=\"mbr-table mbr-table-full\">\n        <div class=\"mbr-table-cell\">\n\n            <div class=\"container\">\n                <div class=\"row\">\n                    <div class=\"col-md-12 wraper\">\n                        <div class=\"image_wrap\" style=\"margin-bottom: 25px;\">\n                            <div class=\"mbr-figure\" style=\"width: 300px;\"><img src=\"@PROJECT_PATH@/assets/images/drurys-vehicle-services-logo-1400x409.png\"></div>\n                            <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"31\"></h3>\n                        </div>\n                    </div>\n                    <div class=\"col-md-12\">\n                        <div class=\"wrap\">\n                            <p class=\"mbr-editable-content\" code-editable-id=\"32\"></p><ul><li><a href=\"\">Bootstrap 4</a></li><li><a href=\"\">Responsive</a></li><li><a href=\"\">Web Fonts</a></li><li><a href=\"\">Unlimited Sites</a></li><li><a href=\"\">Google</a></li><li><a href=\"\">Node</a></li></ul><p></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-section extFooter1\" style=\"background-color: #3c71b5; padding-top: 40px; padding-bottom: 40px;\">\n\n    \n\n    <div class=\"mbr-table mbr-table-full\">\n        <div class=\"mbr-table-cell\">\n\n            <div class=\"container\">\n                <div class=\"row\">\n                    <div class=\"col-md-12 wraper\">\n                        <div class=\"image_wrap\" style=\"margin-bottom: 25px;\">\n                            <div class=\"mbr-figure\" style=\"width: 300px;\"><img src=\"@PROJECT_PATH@/assets/images/drurys-vehicle-services-logo-1400x409.png\"></div>\n                            <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"102\"></h3>\n                        </div>\n                    </div>\n                    <div class=\"col-md-12\">\n                        <div class=\"wrap\">\n                            <p class=\"mbr-editable-content\" code-editable-id=\"103\"></p><ul><li><a href=\"\">Folgate Road, Lyngate Industrial Estate, North Walsham, Norfolk, NR28 0AJ</a></li></ul><p></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n        </div>\n    </div>\n\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customCSS": "",
-          "_customTemplate": true
+          "_customTemplate": true,
+          "_anchor": "extFooter1-h"
         },
         {
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "0.75rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#2f598f"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#386aaa!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#3c71b5"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
-            }
-          },
           "_tags": [
             "Theme"
           ],
@@ -767,7 +719,12 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">Get In Touch &gt;</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#extFeatures2-4\">MOTs</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#extFeatures2-5\">Service</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#extFeatures2-6\">Repairs</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#extFeatures2-7\">Parts/Spares</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html#form1-a\">Get In Touch &gt;</a></li>",
+          "_customCSS": ".hide-buttons .nav-btn {\n\tdisplay: none !important;\n}\n.navbar-caption {\n\tcolor: #ffffff;\n}\n.navbar-toggler {\n\tcolor: #ffffff;\n}\n.navbar .container {\n\tmin-width: 98%;\n}\n\n.close-icon::before, .close-icon::after {\n\tbackground-color: #ffffff;\n}\n.link, .dropdown-item {\n\tcolor: #ffffff;\n}\n.link {\n\tfont-size: 0.75rem;\n}\n.dropdown-item, .nav-dropdown-sm .link {\n\tfont-size: 0.812rem;\n}\n.link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus {\n\tcolor: #3c71b5;\n}\n.link[aria-expanded=\"true\"], .dropdown-menu {\n\tbackground: #2f598f;\n}\n.nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover {\n\tbackground: #386aaa!important;\n}\n.navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu {\n\tbackground: #3c71b5;\n}\n.bg-color.transparent .link {\n\tcolor: #ffffff;\n\ttransition: none;\n}\n.bg-color.transparent.opened .link {\n\ttransition: color .2s ease-in-out;\n}\n.bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus {\n\tcolor: #3c71b5;\n}\n.link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"] {\n\tcolor: #3c71b5!important;\n}\n",
+          "_customHTML": "<section>\n\n    <nav class=\"navbar navbar-dropdown bg-color transparent navbar-fixed-top\">\n        <div class=\"container\">\n\n            <div class=\"mbr-table\">\n                <div class=\"mbr-table-cell\">\n\n                    <div class=\"navbar-brand\">\n                        <a href=\"#\" class=\"navbar-logo\"><img src=\"@PROJECT_PATH@/assets/images/drurys-vehicle-services-logo-small-435x128.png\" alt=\"Mobirise\"></a>\n                        <a class=\"navbar-caption\" href=\"https://mobirise.com\"></a>\n                    </div>\n\n                </div>\n                <div class=\"mbr-table-cell\">\n\n                    <button class=\"navbar-toggler pull-xs-right hidden-md-up\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <div class=\"hamburger-icon\"></div>\n                    </button>\n\n                    <ul class=\"nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm\" id=\"exCollapsingNavbar\"><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"index.html#extFeatures2-4\" code-editable-id=\"90\">MOTs</a></li><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"index.html#extFeatures2-5\" code-editable-id=\"91\">Service</a></li><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"index.html#extFeatures2-6\" code-editable-id=\"92\">Repairs</a></li><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"index.html#extFeatures2-7\" code-editable-id=\"93\">Parts/Spares</a></li><li class=\"nav-item nav-btn\"><a class=\"nav-link btn btn-white btn-white-outline mbr-editable-menu-item\" href=\"index.html#form1-a\" code-editable-id=\"94\">Get In Touch &gt;</a></li></ul>\n                    <button hidden=\"\" class=\"navbar-toggler navbar-close\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <div class=\"close-icon\"></div>\n                    </button>\n\n                </div>\n            </div>\n\n        </div>\n    </nav>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customTemplate": true
         }
       ]
     }
