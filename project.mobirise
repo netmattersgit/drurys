@@ -584,6 +584,9 @@
           "_styles": {
             ".form-control-label": {
               "color": "#232323"
+            },
+            "B": {
+              "font-size": "46px"
             }
           },
           "_anchor": "form1-a",
@@ -603,7 +606,7 @@
             "showSubTitle": true
           },
           "title": "CONTACT FORM",
-          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "subtitle": "Get in touch and one of our specialists will help you with your enquiry.<br><br><b>(01692) 406 511</b>",
           "form": {
             "action": "emarketinghut@gmail.com",
             "alerts": {
